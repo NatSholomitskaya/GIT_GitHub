@@ -8,6 +8,30 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
+<div class="site">
+    <form class="forms" method="POST">
+        <fieldset class="general">
+            <legend class="general__legend">Общая информация</legend>
     
+            <div class="general__info">
+                <label>Фамилия
+                <input required type="text" name="surname" placeholder="Иванов"/>
+                </label>
+            </div>
+    
+            <div class="general__info">
+                <label>Имя
+                <input required type="text" name="firstname" placeholder="Иван"/>
+                </label>
+            </div>
+
+            <div class="general__info">
+                <label>Дата рождения
+                <input  required type="date" name="birthday"/>
+                </label>
+            </div> 
+        </fieldset>
+    </form>
+</div>
 </body>
 </html>
