@@ -41,3 +41,15 @@ body {
     margin-left: 25px;
     margin-top: 25px;
 }
+
+.button {
+    height: 50px;
+    width: 300px;
+    border: solid rgb(92, 3, 3);
+    background-color: rgba(148, 5, 5, 0.658);
+    border-radius: 5px;
+    color: white;
+    font-size: 27px;
+    font-style: italic;
+    margin-bottom: 25px;
+}
